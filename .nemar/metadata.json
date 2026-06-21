@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Go-nogo categorization and detection task",
-  "description": "This dataset comprises EEG recordings from participants performing go-nogo categorization and detection tasks across two recording sessions. Participants viewed briefly presented images (20 ms) and responded according to task-specific rules: lifting a finger for target stimuli (go) or maintaining button press for non-targets (nogo) in an animal categorization task, or recognizing learned probe images in a recognition task. Participants were given 1000 ms to respond, after which any response was considered a nogo response. The dataset includes 25 series of 100 images each across two days, with high temporal resolution motor response measurements (sub-millisecond latency).",
-  "methods_description": "EEG recordings were conducted with participants seated 110 cm from a computer screen in a dimly lit room. Visual stimuli (8-bit color photographs, 256×384 pixels) were presented for 20 ms using a programmable graphics board at 100 Hz refresh rate. Participants responded via a touch-sensitive button with sub-millisecond response latency measurement. Stimulus onset asynchrony was 2000 ms ± 200 ms random delay. Two tasks alternated: animal categorization (respond to animal images) and recognition (identify learned probe images). Testing occurred across two days with 13 series on day 1 and 12 series on day 2.",
+  "description": "This dataset comprises EEG recordings from participants performing go-nogo categorization and detection tasks across two recording sessions. Participants viewed briefly presented images (20 ms) and responded according to task-specific rules: lifting a finger for target stimuli (go response) or maintaining button press for non-targets (nogo response). The dataset includes two complementary tasks—animal categorization and image recognition—with systematic manipulation of stimulus presentation and response requirements, providing a rich resource for investigating event-related potentials and decision-making processes.",
+  "methods_description": "EEG data were collected while participants performed go-nogo tasks in a dimly lit room seated 110 cm from a computer screen. Visual stimuli (8-bit color photographs, 256×384 pixels, ~4.5° × 6.5° visual angle) were presented for 20 ms at 100 Hz refresh rate. Participants responded via a touch-sensitive button (response latency <1 ms) with 1000 ms response window and 2000 ms stimulus onset asynchrony (±200 ms jitter). Two recording sessions occurred on separate days (13 series on day 1, 12 series on day 2, 100 images per series). Tasks included animal categorization (respond to animal images) and recognition (respond to learned probe image).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,46 +11,76 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "go-nogo task"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "visual categorization"
+      "term": "go-nogo task",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D065169"
     },
     {
-      "term": "motor response"
+      "term": "visual categorization",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
     },
     {
-      "term": "image recognition"
+      "term": "decision-making",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000066492"
     },
     {
-      "term": "high-precision motor response measurement"
+      "term": "motor response",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009048"
     },
     {
-      "term": "brief stimulus presentation"
+      "term": "response inhibition",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007266"
     },
     {
-      "term": "dual-task design"
+      "term": "animal categorization",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
     },
     {
-      "term": "animal categorization"
+      "term": "stimulus presentation",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010775"
     },
     {
-      "term": "probe image recognition"
+      "term": "visual recognition",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     },
     {
-      "term": "button press response"
+      "term": "inhibitory control",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D056344"
     },
     {
-      "term": "event-related potential"
-    },
-    {
-      "term": "HED"
-    },
-    {
-      "term": "BIDS"
+      "term": "response time",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011930"
     }
   ],
   "related_identifiers": [
