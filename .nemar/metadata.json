@@ -1,0 +1,27 @@
+{
+  "version": "2.0",
+  "dataset_id": "on002680",
+  "source": "openneuro",
+  "source_id": "ds002680",
+  "title": "Go-nogo categorization and detection task",
+  "authors": {
+    "Arnaud Delorme": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds002680.v1.2.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "v1.2.1",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
