@@ -2,47 +2,13 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Go-nogo categorization and detection task",
+  "description": "This dataset comprises EEG recordings from participants performing go-nogo categorization and detection tasks across two recording sessions. Participants viewed briefly presented images (20 ms) and responded according to task-specific rules: lifting a finger for target stimuli (go) or maintaining button press for non-targets (nogo) in an animal categorization task, or recognizing learned probe images in a recognition task. Participants were given 1000 ms to respond, after which any response was considered a nogo response. The dataset includes 25 series of 100 images each across two days, with high temporal resolution motor response measurements (sub-millisecond latency).",
+  "methods_description": "EEG recordings were conducted with participants seated 110 cm from a computer screen in a dimly lit room. Visual stimuli (8-bit color photographs, 256×384 pixels) were presented for 20 ms using a programmable graphics board at 100 Hz refresh rate. Participants responded via a touch-sensitive button with sub-millisecond response latency measurement. Stimulus onset asynchrony was 2000 ms ± 200 ms random delay. Two tasks alternated: animal categorization (respond to animal images) and recognition (identify learned probe images). Testing occurred across two days with 13 series on day 1 and 12 series on day 2.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Arnaud Delorme": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds002680.v1.2.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on002680",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002680",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".gitattributes",
-    ".jpg",
-    ".json",
-    ".m",
-    ".md",
-    ".set",
-    ".tsv",
-    ".txt"
-  ],
-  "description": "This dataset comprises EEG recordings from participants performing go-nogo categorization and detection tasks. Participants were presented with visual stimuli (photographs) and performed two alternating tasks: an animal categorization task requiring responses to target images, and a recognition task involving learning and subsequent identification of probe images. Data were collected across two recording sessions with 25 series of 100 images each, providing a rich resource for investigating event-related potentials and neural correlates of visual categorization and recognition processes.",
-  "methods_description": "EEG data were collected from participants seated 110 cm from a computer screen in a dimly lit room. Visual stimuli (8-bit color photographs, 256×384 pixels) were presented for 20 ms using a programmable graphics board at 100 Hz refresh rate. Participants performed go-nogo responses: lifting a finger from a touch-sensitive button for targets (response window 1000 ms) or maintaining button press for non-targets. Stimulus onset asynchrony was 2000 ms ± 200 ms random delay. Two recording sessions were conducted: day 1 with 13 series and day 2 with 12 series, each containing 100 images (50 targets, 50 non-targets).",
   "keywords": [
     {
       "term": "EEG"
@@ -54,23 +20,73 @@
       "term": "visual categorization"
     },
     {
-      "term": "recognition memory"
+      "term": "motor response"
     },
     {
-      "term": "motor response"
+      "term": "image recognition"
+    },
+    {
+      "term": "high-precision motor response measurement"
+    },
+    {
+      "term": "brief stimulus presentation"
+    },
+    {
+      "term": "dual-task design"
     },
     {
       "term": "animal categorization"
     },
     {
-      "term": "event-related potentials"
+      "term": "probe image recognition"
     },
     {
-      "term": "nogo paradigm"
+      "term": "button press response"
     },
     {
-      "term": "response inhibition"
+      "term": "event-related potential"
+    },
+    {
+      "term": "HED"
+    },
+    {
+      "term": "BIDS"
     }
   ],
-  "source_hash": "473fe236a16f102c5359a690eb128d4f29dc58f1a7fb58cd21c9b1ca4fd4238b"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on002680",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002680",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002680.v1.2.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "9.9 GB (2873 files)"
+  ],
+  "formats": [
+    ".gitattributes",
+    ".jpg",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".yml"
+  ],
+  "source_hash": "baed192f2e6f773f6d00f763ddcf4062a296b055bfacde2d7307407e317fb3e5"
 }
